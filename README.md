@@ -160,6 +160,11 @@ En Eclipse/STS: clic derecho al proyecto > `Run As > Maven test` (o `JUnit Test`
 Para usar MySQL en vez de H2 hay un bloque comentado en el mismo archivo
 (agregar tambien `mysql-connector-j` al `pom.xml`).
 
+## Diagrama de la solucion
+
+Ver [docs/diagrama-solucion.md](docs/diagrama-solucion.md): arquitectura de componentes,
+secuencia de cada endpoint (registro, login, listado) y modelo de datos.
+
 ## Patrones de diseno
 
 | Patron | Donde | Para que |
